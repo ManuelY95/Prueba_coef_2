@@ -1,15 +1,18 @@
+/* Quita los márgenes y espacios por defecto */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Estilos generales de la página */
 body {
     background-color: #171225;
     color: white;
     font-family: Arial;
 }
 
+/* Encabezado */
 header {
     display: flex;
     justify-content: space-between;
@@ -17,65 +20,78 @@ header {
     border-bottom: 2px solid #7EE8D4;
 }
 
+/* Color de los subtítulos */
 h2 {
     color: #A8F0C6;
 }
 
+/* Enlaces del menú */
 nav a {
     color: white;
     text-decoration: none;
     margin-left: 15px;
 }
 
+/* Color al pasar el mouse */
 nav a:hover {
     color: #7EE8D4;
 }
 
+/* Contenedor principal */
 .caja {
     width: 80%;
     margin: 40px auto;
 }
 
+/* Estilo del subtítulo */
 .subtitulo {
     color: #FBE28A;
     margin-bottom: 10px;
 }
 
+/* Título principal */
 h1 {
     margin-bottom: 15px;
 }
 
+/* Descripción */
 .descripcion {
     margin-bottom: 30px;
     color: #dcd3f6;
 }
 
+/* Organiza las tarjetas */
 .grid-tarjetas {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
 }
 
+/* Estilo de cada tarjeta */
 .tarjeta {
     background-color: #221A36;
     padding: 20px;
     margin-top: 20px;
 }
 
+/* Título de la tarjeta */
 .tarjeta h3 {
     color: #C9B6F8;
     margin-bottom: 10px;
 }
 
+/* Texto de la tarjeta */
 .tarjeta p {
     margin-bottom: 15px;
 }
 
+/* Enlace de la tarjeta */
 .tarjeta a {
     color: #7EE8D4;
     text-decoration: none;
 }
 
+/* Pie de página */
 footer {
     display: flex;
     justify-content: space-between;
